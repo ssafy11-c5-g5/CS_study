@@ -1,3 +1,5 @@
+jihyeon-yu
+
 # 비선점과 선점 스케줄링
 
 ## 비선점(Non-preemptive)
@@ -18,7 +20,7 @@
 - 준비 큐에 들어온 순서대로 처리
 - 프로세스 대기 시간이 길어질 수 있음
 
-![Alt text](./img/jihyeon-yu-FCFS.jpg)
+![Alt text](./img/jihyeon-yu-FCFS.JPG)
 
 ## 최단 작업 우선 스케줄링 (SJF: Shortest Job First)
 
@@ -31,7 +33,7 @@
 - 타임 슬라이스를 정하여 순서대로 CPU를 할당
 - 타임 슬라이스가 크면 호위 효과 발생, 작으면 문맥교환 오버헤드 발생
 
-![Alt text](./img/jihyeon-yu-RR.jpg)
+![Alt text](./img/jihyeon-yu-RR.JPG)
 
 ## 최소 잔여 시간 우선 스케줄링 (SRF: Shortest Remaining Time First)
 
@@ -58,4 +60,4 @@
 - 큐 간의 이동이 가능하여 기아 현상을 완화
 - CPU 스케줄링 방식으로 알려져있음
 
-![Alt text](./img/jihyeon-yu-feedbackqueue.jpg)
+![Alt text](./img/jihyeon-yu-feedbackqueue.JPG)
