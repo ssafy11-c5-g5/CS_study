@@ -1,3 +1,5 @@
+jihyeon-yu
+
 # 비선점과 선점 스케줄링
 
 ## 비선점(Non-preemptive)
